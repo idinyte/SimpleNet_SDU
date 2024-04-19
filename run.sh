@@ -1,4 +1,4 @@
-datapath="dataset"
+datapath="dateset"
 datasets=('glassfiber')
 dataset_flags=($(for dataset in "${datasets[@]}"; do echo '-d '"${dataset}"; done))
 
